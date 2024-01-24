@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-weight: 400;
+  background-image: url('assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100vh;
+}
+main{
+  position: relative;
+}
+img {
+	max-width: 100%;
+}		
+.container {
+	max-width: 730px;
+	margin: 0 auto;
+  background: #fff;
+  padding: 45px 70px;
+  min-height: 100vh;
+}
+.display-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.header-btn img{
+  width: 240px;
+}
+.logo-part {
+	text-align: center;
+	margin-top: 50px;
+}
+h2 {
+  text-transform: uppercase;
+  color: #0672bb;
+  font-weight: 500;
+  padding: 10px 22px;
+  border: 2px solid #0672bb;
+  display: inline-block;
+  border-radius: 25px;
+}
+.logo-part img {
+	width: 55%;
+}
+.address h3 {
+  font-size: 24px;
+  line-height: 1.6em;
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+  word-break: break-word;
+}
+.address h3 a {
+  color: #000;
+  text-decoration: none;
+}
+h3.email a {
+  font-weight: 700;
+  color: #619b3d;
+}
+.address .email a {
+	font-size: 28px;
+}
+.content p {
+  color: #000;
+  line-height: 1.7em;
+  text-align: center;
+}
+.address {
+  margin: 40px 0 25px 0;
+  text-align: center;
+}
+.footer{
+  text-align: center;
+  margin-top: 40px;
+}
+.comming-soon-banner{
+  max-width: 80%;
+}
+.policy {
+	max-width: 50%;
+	margin-top: 27px;
+}
+.popup {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	width: 80%;
+}
+.popup-content p {
+	font-size: 15px;
+	margin: 0;
+}
+.popup-content h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+  font-weight: 500;
+}
+.popup-content h4 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.popup-content h5 {
+	margin-top: 6px;
+	margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 16px;
+}
+a{
+  color: #000;
+}
+.close-btn {
+	position: fixed;
+	top: 10px;
+	right: 15px;
+	background-color: #fff;
+}
+@media(max-width: 700px) {
+  .header-btn img {
+    width: 38vw;
+  }
+  .container {
+    padding: 35px 35px;
+  }
+  .address {
+    margin: 25px 0 25px 0;
+  }
+  .address .email a {
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 16px;
+  }
+	h2 {
+	  font-size: 17px;
+	}
+	.container div.cathedral-row {
+	  padding: 50px 35px;
+	}
+	div.address h3 {
+	  font-size: 20px;
+	}			
+  .logo-part img {
+    width: 80%;
+  }
+  .comming-soon-banner {
+    max-width: 98%;
+  }
+  .policy {
+    max-width: 80%;
+  }
+  .popup {
+    top: 96%;
+  }
+}

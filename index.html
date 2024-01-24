@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>The Gardens at Scranton</title>
+</head>
+<body>
+	<main>
+		<div class="container">
+			<div class="display-flex header-btn">
+				<a href="#">
+					<img src="./assets/images/Payments Button.svg" alt="Payments Button"/>
+				</a>
+        <a href="#">
+					<img src="./assets/images/Careers Button.svg" alt="Careers Button"/>
+				</a>
+			</div>
+      
+      <div class="logo-part">
+        <a href="#">
+          <img src="./assets/images/Scranton Logo.svg" alt="Scranton-Logo">
+        </a>
+      </div>
+
+      <div class="address">
+        <h3>824 Adams Avenue</h3>
+        <h3>Scranton PA, 18510</h3>
+        <h3><a href="tel:5703465704">(570) 346-5704</a></h3>
+        <h3 class="email"><a href="mailto:admissions@gardensscranton.com">admissions@gardensscranton.com</a></h3>
+      </div>
+
+      <div class="content">
+        <p>The Gardens at Scranton for Nursing and Rehabilitation is a 139-bed skilled nursing facility in Scranton, Pennsylvania. Our center offers short-term rehabilitation, including physical therapy, occupational therapy, and speech therapy as well as long-term care. Our amenities include basic cable, free laundry service, and free WiFi to all residents.</p>
+      </div>
+
+      <div class="footer">
+        <img class="comming-soon-banner" src="./assets/images/Website Coming Soon Button.svg" alt="Website Coming Soon Button">
+        <img onclick="openPopup()" class="policy" src="./assets/images/policy.svg" alt="policy">
+      </div>
+		</div>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <h3>NONDISCRIMINATION & ACCESSIBILITY REQUIREMENTS</h3>
+
+        <p>The Gardens at Scranton complies with applicable state and federal civil right laws, and does not discriminate on the basis of race, creed, color, religion, national origin, sex (including pregnancy, sexual orientation and gender identity), handicap or disability (including Opioid Use Disorder or taking medication to treat OUD, if the person is not currently engaged in illegal drug use), source of sponsorship, source of payment, marital status, age, genetic disposition, or any other category protected by law.</p>
+        
+        <h4>This Facility provides the following:</h4>
+        <h5>Free aids and services to people with disabilities to communicate effectively with us, such as:</h4>
+        <p>Qualified sign language interpreters;</P>
+        <p>Written information in other formats (large print, audio, accessible electronic formats, other formats)</P>
+        <h5>Free language services to people whose primary language is not English, such as:</h5>
+        <p>Qualified interpreters;</P>
+        <p>Information written in other languages</P>
+        <p>If you need these services, please contact the Administrator.</P>
+
+        <p>If you believe that this Facility has failed to provide these services or discriminated in another way on the basis of race, color, national origin, age, disability (including Opioid Use Disorder or taking medication to treat OUD, if the person is not currently engaged in illegal drug use), or sex (including pregnancy, sexual orientation and gender identity) or any other category protected by law, you can file a grievance with the Administrator of Record.</p>
+
+        <P>824 Adams Avenue</P>
+        <P>Scranton PA, 18510</P>
+        <p><a href="tel:5703465704">(570) 346-5704 </a></P>
+        <p><a href="mailto:admissions@gardensscranton.com">admissions@gardensscranton.com</a></P>
+
+        <p>You can file a grievance in person or by mail, fax or email.</P>
+        <p>If you need help filing a grievance, the Administrator of Record is available to help you.</P>
+        <p>You can also file a civil rights complaint with the U.S. Department of Health and Human Services, Office for Civil Rights, electronically through the Office for the Civil Rights Complaint Portal, available at https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf, or by mail or phone at:</P>
+        <p>U.S. Department of Health and Human Services</P>
+        <p>200 Independence Avenue, SW / Room 509F, HHH Building</P>
+        <p>Washington, D.C. 20201</P>
+
+        <p><a href="tel:18003681019">1-800-368-1019</a>, <a href="tel:8005377697">800-537-7697</a> (TDD Complaint forms are available at <a href="http://www.hhs.gov/ocr/office/file/index.html">http://www.hhs.gov/ocr/office/file/index.html</a>)</p>
+      </div>
+      <button class="close-btn" onclick="closePopup()">X</button>
+    </div>
+	</main>
+  <script>
+    // Function to open the popup
+    function openPopup() {
+      var popup = document.getElementById('popup');
+      popup.style.display = 'block';
+    }
+  
+    // Function to close the popup
+    function closePopup() {
+      var popup = document.getElementById('popup');
+      popup.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
